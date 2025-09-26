@@ -62,7 +62,7 @@ function VideoUpload() {
                 type="text"
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
-                className="input input-bordered w-full"
+                className="input input-bordered w-full bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white"
                 required
               />
             </div>
@@ -73,7 +73,7 @@ function VideoUpload() {
               <textarea
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
-                className="textarea textarea-bordered w-full"
+                className="textarea textarea-bordered w-full bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white"
               />
             </div>
             <div>
@@ -84,13 +84,13 @@ function VideoUpload() {
                 type="file"
                 accept="video/*"
                 onChange={(e) => setFile(e.target.files?.[0] || null)}
-                className="file-input file-input-bordered w-full"
+                className="file-input file-input-bordered w-full bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white"
                 required
               />
             </div>
             <button
               type="submit"
-              className="btn btn-primary"
+              className="btn btn-primary bg-gradient-to-br from-purple-900 via-indigo-900 to-black text-white"
               disabled={isUploading}
             >
               {isUploading ? "Uploading..." : "Upload Video"}

@@ -73,7 +73,7 @@ const  VideoCard: React.FC<VideoCardProps> = ({video, onDownload}) => {
 
       return (
         <div
-          className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300"
+          className="card bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white shadow-xl hover:shadow-2xl transition-all duration-300"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >

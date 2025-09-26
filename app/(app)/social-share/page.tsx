@@ -84,13 +84,13 @@ const socialFormats = {
             <div className="card-body">
               <h2 className="card-title mb-4">Upload an Image</h2>
               <div className="form-control">
-                <label className="label">
+                <label className="label ">
                   <span className="label-text">Choose an image file</span>
                 </label>
                 <input
                   type="file"
                   onChange={handleFileUpload}
-                  className="file-input file-input-bordered file-input-primary w-full"
+                  className="file-input file-input-bordered file-input-primary w-full bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white "
                 />
               </div>
 
