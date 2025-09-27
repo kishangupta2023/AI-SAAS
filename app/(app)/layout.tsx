@@ -5,7 +5,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useClerk, useUser } from "@clerk/nextjs";
 import {
-  LogOutIcon,
   MenuIcon,
   LayoutDashboardIcon,
   Share2Icon,
